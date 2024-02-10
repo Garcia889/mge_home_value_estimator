@@ -1,6 +1,3 @@
-# FILEPATH
-
-"""
 README
 
 Este proyecto tiene como objetivo calcular el precio de una casa basado en diferentes características y factores.
