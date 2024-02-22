@@ -249,4 +249,5 @@ df["HeatingQC"] = min_max_scaler.fit_transform(df["HeatingQC"].values.reshape(-1
 df["KitchenQual"] = min_max_scaler.fit_transform(df["KitchenQual"].values.reshape(-1, 1))
 df["FireplaceQu"] = min_max_scaler.fit_transform(df["FireplaceQu"].values.reshape(-1,1))
 
+#Guardamos el dataframe limpio
 df.to_csv('../data/clean.csv', index=False)
