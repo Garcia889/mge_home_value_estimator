@@ -6,24 +6,24 @@ Este proyecto tiene como objetivo calcular el precio de una casa basado en difer
 El cálculo del precio se realiza utilizando un algoritmo que tiene en cuenta variables como el tamaño de la casa,
 la ubicación, el número de habitaciones, entre otros.
 
-mge_home_value_estimator
-├── README.md
-├── EDA
-│   └── EDA_Homes.ipynb
-├── data
-│   ├── data_description.txt
-│   ├── sample_submission.csv
-│   ├── test.csv
-│   └── train.csv
-├── images
-│   └── magic_ball.png
-├── logs
-│   └── training_logs.csv
-├── main_home_estimator.py
-└── src
-    ├── data_preprocessor.py
-    ├── model_selection.py
-    └── model_tuning.py
+mge_home_value_estimator  
+├── README.md  
+├── EDA  
+│   └── EDA_Homes.ipynb  
+├── data  
+│   ├── data_description.txt  
+│   ├── sample_submission.csv  
+│   ├── test.csv  
+│   └── train.csv  
+├── images  
+│   └── magic_ball.png  
+├── logs  
+│   └── training_logs.csv  
+├── main_home_estimator.py  
+└── src  
+    ├── data_preprocessor.py  
+    ├── model_selection.py  
+    └── model_tuning.py  
 
 ## Dependencias
 
