@@ -1,6 +1,6 @@
-![Magic home price predictor](/images/magic_ball.png)
-
 Home value estimator
+
+![Magic home price predictor](/images/magic_ball.png)
 
 Este proyecto tiene como objetivo calcular el precio de una casa basado en diferentes características y factores.  
 El cálculo del precio se realiza utilizando un algoritmo que tiene en cuenta variables como el tamaño de la casa,
