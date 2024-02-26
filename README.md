@@ -21,11 +21,11 @@ mge_home_value_estimator
 │   └── magic_ball.png  
 ├── logs  
 │   └── training_logs.csv  
-├── main_home_estimator.py  
-└── src  
-    ├── data_preprocessor.py  
-    ├── model_selection.py  
-    └── model_tuning.py  
+├── src  
+│   ├── data_preprocessor.py  
+│   ├── model_selection.py  
+│   └──  model_tuning.py  
+└── main_home_estimator.py  
 ```
 
 ## Dependencias
