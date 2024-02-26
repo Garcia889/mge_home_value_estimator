@@ -1,4 +1,4 @@
-Home value estimator
+# Home value estimator
 
 ![Magic home price predictor](/images/magic_ball.png)
 
