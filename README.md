@@ -1,14 +1,47 @@
+# Home value estimator
+
 ![Magic home price predictor](/images/magic_ball.png)
 
-
-Home value estimator
-
-Este proyecto tiene como objetivo calcular el precio de una casa basado en diferentes características y factores.
+Este proyecto tiene como objetivo calcular el precio de una casa basado en diferentes características y factores.  
 El cálculo del precio se realiza utilizando un algoritmo que tiene en cuenta variables como el tamaño de la casa,
 la ubicación, el número de habitaciones, entre otros.
 
-Para explorar las variables de la fuente original de datos podemos usar el notebook:
-EDA/EDA_Homes.ipynb 
+## Estructura del repositorio
+```
+mge_home_value_estimator  
+├── README.md  
+├── EDA  
+│   └── EDA_Homes.ipynb  
+├── data  
+│   ├── data_description.txt  
+│   ├── sample_submission.csv  
+│   ├── test.csv  
+│   └── train.csv  
+├── images  
+│   └── magic_ball.png  
+├── logs  
+│   └── training_logs.csv  
+├── src  
+│   ├── data_preprocessor.py  
+│   ├── model_selection.py  
+│   └──  model_tuning.py  
+└── main_home_estimator.py  
+```
+
+## Dependencias
+
+- Python (>=3.6)
+
+## Instrucciones de Instalación
+
+Para instalar las dependencias necesarias, ejecute el siguiente comando:
+
+```bash
+pip install -r requirements.txt
+```
+> **EDA:** Para explorar las variables de la fuente original de datos podemos usar el notebook:
+EDA/EDA_Homes.ipynb
+
 
 Instrucciones para usar la predicción de precios:
 1. Ejecuta el archivo principal "calcmain_prediction.py".
