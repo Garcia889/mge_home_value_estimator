@@ -1,0 +1,4 @@
+data:
+  raw:
+    train_data: "train.csv"
+    test_data: "test.csv"
